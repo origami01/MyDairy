@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyDiary</title>
+</head>
+<body>
+  <h1>Entry</h1>
+  <!-- Display the title and creation date for the entry -->
+  <h2>Title: <span id="title">{{ entry.title }}</span></h2>
+  <p>Date: <span id="date">{{ entry.date }}</span></p>
+  <!-- Display the content of the entry -->
+  <p>Content:</p>
+  <p><textarea id="content" readonly>{{ entry.content }}</textarea></p>
+  <!-- Link to the edit entry page -->
+  <p><a href="/entries/{{ entry.id }}/edit">Edit entry</a></p>
+  <!-- Link to the entries page -->
+  <p><a href="/entries">Back to entries</a></p>
+</body>
+</html>

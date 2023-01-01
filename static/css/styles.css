@@ -1,0 +1,54 @@
+/* Global styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Diary entry styles */
+  .diary-entry {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .entry-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .entry-content {
+    margin-bottom: 10px;
+  }
+  
+  .entry-date {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Entry form styles */
+  .entry-form {
+    margin-bottom: 20px;
+  }
+  
+  .entry-form input[type="text"],
+  .entry-form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .entry-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

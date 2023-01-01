@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyDiary</title>
+</head>
+<body>
+  <h1>Profile</h1>
+  <p>First name: <span id="first_name">{{ first_name }}</span></p>
+  <p>Last name: <span id="last_name">{{ last_name }}</span></p>
+  <p>Username: <span id="username">{{ username }}</span></p>
+  <p>Number of entries: <span id="num_entries">{{ num_entries }}</span></p>
+  <form method="post" action="/profile/reminder">
+    <label for="reminder">Daily Reminder:

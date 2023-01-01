@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyDiary</title>
+</head>
+<body>
+  <h1>Entries</h1>
+  <ul>
+    <!-- Iterate over the list of entries and create a list item for each one -->
+    <li>
+      <!-- Display the title and creation date for each entry -->
+      <h2>Title: <span id="title">{{ entry.title }}</span></h2>
+      <p>Date: <span id="date">{{ entry.date }}</span></p>
+      <!-- Link to the entry page -->
+      <a href="/entries/{{ entry.id }}">View entry</a>
+    </li>
+  </ul>
+  <!-- Link to the add entry page -->
+  <p><a href="/entries/add">Add an entry</a></p>
+</body>
+</html>
